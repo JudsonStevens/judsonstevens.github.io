@@ -1,14 +1,13 @@
 # Site settings
-title:       Pixyll
-email:       your_email@example.com
-author:      John Otander
-description: "A simple, beautiful theme for Jekyll that emphasizes content rather than aesthetic fluff."
+title:       Musings
+email:       Judson@judsonstevens.dev
+author:      Judson Stevens
+description: "Thoughts."
 baseurl:     ""
 url:         "http://pixyll.com"
 date_format: "%b %-d, %Y"
 header_pages:
  - about.md
- - contact.html
 
 # Google services
 google_verification:
@@ -47,7 +46,7 @@ facebook_appid:
 facebook_comments_number: 10
 
 # Social icons
-github_username:
+github_username: 'JudsonStevens'
 reddit_username:
 bitbucket_username:
 stackoverflow_id:
@@ -55,7 +54,7 @@ twitter_username:
 skype_username:
 steam_nickname:
 google_plus_id:
-linkedin_username:
+linkedin_username: 'JudsonStevens'
 angellist_username:
 medium_id:
 bitcoin_url:
@@ -70,7 +69,7 @@ show_sharing_icons: false
 share_facebook: false
 share_twitter: false
 share_googleplus: false
-share_linkedin: false
+share_linkedin: true
 share_digg: false
 share_tumblr: false
 share_reddit: false
@@ -82,33 +81,33 @@ text:
     newer: 'Newer'
     older: 'Older'
   share_buttons:
-    text:         'Share this post!'
-    facebook:     'Share on Facebook'
-    twitter:      'Share on Twitter'
-    googleplus:   'Share on Google+'
-    linkedin:     'Share on LinkedIn'
-    digg:         'Share on Digg'
-    tumblr:       'Share on Tumblr'
-    reddit:       'Share on Reddit'
-    stumbleupon:  'Share on StumbleUpon'
-    hackernews:   'Share on Hacker News'
+    text:         
+    facebook:     
+    twitter:      
+    googleplus:   
+    linkedin:     
+    digg:         
+    tumblr:       
+    reddit:       
+    stumbleupon:  
+    hackernews:   
   post:
     updated:        'Updated'
     minute_read:    'minute read'
     related_posts:  'Related Posts'
   index:
     coming_soon: 'Coming soon...'
-  contact:
-    email:    'Email Address'
-    content:  'What would you like to say?'
-    subject:  'New submission!'
-    submit:   'Say Hello'
-    ajax:
-      sending:  'sending..'
-      sent:     'Message sent!'
-      error:    'Error!'
-  thanks: 'Thanks for contacting us. We will reply as soon as possible.'
-  og_locale: 'en_US'
+  # contact:
+  #   email:    'Email Address'
+  #   content:  'What would you like to say?'
+  #   subject:  'New submission!'
+  #   submit:   'Say Hello'
+  #   ajax:
+  #     sending:  'sending..'
+  #     sent:     'Message sent!'
+  #     error:    'Error!'
+  # thanks: 'Thanks for contacting us. We will reply as soon as possible.'
+  # og_locale: 'en_US'
 
 # Build settings
 markdown:     kramdown
